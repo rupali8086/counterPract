@@ -1,0 +1,25 @@
+.counter-sec {
+  height: 100vh;
+  background: #4e17ad;;
+
+  .counter {
+    background: var(--light-blue);
+    min-width: 400px;
+    padding: 2rem;
+
+    .count {
+      width: 4rem;
+      height: 4rem;
+      border: 2px solid #b97722;
+      border-radius: 50%;
+      padding: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .buttons {
+      display: flex;
+    }
+  }
+}
